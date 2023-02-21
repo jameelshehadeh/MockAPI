@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		FAA2549729A5286F006FD4FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2549629A5286F006FD4FF /* AppDelegate.swift */; };
 		FAA2549929A5286F006FD4FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2549829A5286F006FD4FF /* SceneDelegate.swift */; };
-		FAA2549B29A5286F006FD4FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2549A29A5286F006FD4FF /* ViewController.swift */; };
+		FAA2549B29A5286F006FD4FF /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2549A29A5286F006FD4FF /* UsersViewController.swift */; };
 		FAA254A029A52870006FD4FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA2549F29A52870006FD4FF /* Assets.xcassets */; };
 		FAA254A329A52870006FD4FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA254A129A52870006FD4FF /* LaunchScreen.storyboard */; };
+		FAA254AB29A530DB006FD4FF /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA254AA29A530DB006FD4FF /* MainTabBarController.swift */; };
+		FAA254AD29A53262006FD4FF /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA254AC29A53262006FD4FF /* PostsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAA2549329A5286F006FD4FF /* MockAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA2549629A5286F006FD4FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA2549829A5286F006FD4FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAA2549A29A5286F006FD4FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAA2549A29A5286F006FD4FF /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		FAA2549F29A52870006FD4FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA254A229A52870006FD4FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA254A429A52870006FD4FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA254AA29A530DB006FD4FF /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		FAA254AC29A53262006FD4FF /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				FAA2549629A5286F006FD4FF /* AppDelegate.swift */,
 				FAA2549829A5286F006FD4FF /* SceneDelegate.swift */,
-				FAA2549A29A5286F006FD4FF /* ViewController.swift */,
+				FAA254AA29A530DB006FD4FF /* MainTabBarController.swift */,
+				FAA2549A29A5286F006FD4FF /* UsersViewController.swift */,
+				FAA254AC29A53262006FD4FF /* PostsViewController.swift */,
 				FAA2549F29A52870006FD4FF /* Assets.xcassets */,
 				FAA254A129A52870006FD4FF /* LaunchScreen.storyboard */,
 				FAA254A429A52870006FD4FF /* Info.plist */,
@@ -134,9 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA2549B29A5286F006FD4FF /* ViewController.swift in Sources */,
+				FAA2549B29A5286F006FD4FF /* UsersViewController.swift in Sources */,
 				FAA2549729A5286F006FD4FF /* AppDelegate.swift in Sources */,
+				FAA254AB29A530DB006FD4FF /* MainTabBarController.swift in Sources */,
 				FAA2549929A5286F006FD4FF /* SceneDelegate.swift in Sources */,
+				FAA254AD29A53262006FD4FF /* PostsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
